@@ -111,9 +111,9 @@ jobs:
         generate_release_notes: false
         body: ""
         files: |
-          dist/*.tar.gz
-          dist/*.zip
-          dist/checksums.txt
+          dist/compressed/*.tar.gz
+          dist/compressed/*.zip
+          dist/compressed/checksums.txt
           
         fail_on_unmatched_files: true
         
